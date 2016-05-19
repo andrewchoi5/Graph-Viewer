@@ -1,0 +1,367 @@
+span.jira
+{
+	color: #18bc9c;
+	cursor: pointer;
+	text-decoration: underline;
+}
+span.jira:hover
+{
+	color: #F7A35C;
+}
+a.jira
+{
+	color: #18bc9c;
+	cursor: pointer;
+	text-decoration: underline;
+}
+a.jira:hover
+{
+	color: #F7A35C;
+}
+
+.label-hover {
+cursor: pointer;
+}
+.label-hover:hover {
+opacity: 0.7;
+}
+span.label-clear
+{
+	background-color: white;
+	color: black;
+	border: solid 1px #ddd;
+}
+
+.problemType 
+{
+	background-color: #00a484;
+}
+
+table.problems
+{
+  table-layout: fixed;
+}
+table.problems td
+{
+	font-size: 13px;
+  word-wrap: break-word;
+}
+th.statusType
+{
+	width: 22px;
+}
+td.statusAwaitingAnalysis
+{
+	width: 5px;
+	background-color: #EFEFEF;	
+}
+td.statusOpenAwaiting
+{
+	width: 5px;
+	background-color: #FF5040;	
+}
+td.statusOpenCommitted
+{
+	width: 5px;
+	background-color: #FFA04D;	
+}
+td.statusOpenPlanning
+{
+	width: 5px;
+	background-color: #A1A1A1;
+}
+td.statusClosed
+{
+	width: 5px;
+	background-color: #A6C661;	
+}
+td.statusUnknown
+{
+	width: 5px;
+	background-color: white;
+}
+
+th.incmonth
+{
+  width: 55px;
+}
+th.recentproblemsdescription
+{
+  width: 200px;
+ 	word-wrap: break-word;
+}
+th.date
+{
+	width: 50px;
+}
+th.proactivedate
+{
+	width: 85px;
+}
+
+th.incident
+{
+	width: 95px;
+}
+td.incident
+{
+	width: 95px !important;
+	word-wrap: break-word;
+	word-break: break-all;	
+}
+th.gmps
+{
+	width: 60px;
+}
+th.description
+{
+}
+td.description
+{
+	word-wrap: break-word;
+}
+th.manager
+{
+	width: 90px;
+}
+th.proactivemanager
+{
+	width: 125px;
+}
+th.key
+{
+	width: 80px;
+}
+th.keyproactive
+{
+	width: 120px;
+}
+
+th.summary
+{
+	width: 180px;
+}
+td.summary
+{
+  word-wrap: break-word;
+}
+th.status
+{
+  width: 270px;
+}
+td.status
+{
+  word-wrap: break-word;
+}
+
+td.proactivesummary
+{
+	width: 200px;
+}
+
+th.accountability
+{
+	width: 110px;
+}
+
+
+/* Gantt Styles */
+
+#gantt-legend
+{
+	float: right;
+	text-align: right;
+	padding-left: 30px; 
+	padding-right: 0px;	
+}
+div.Phase
+{
+	background: url('../images/legend_circle.png'); 
+	background-repeat: no-repeat;
+	width: 15px;
+	height: 15px;	
+	float: right;
+	margin-left: 10px;
+	margin-top: 4px;
+}
+div.Prod
+{
+	background: url('../images/legend_star.png'); 
+	background-repeat: no-repeat;
+	width: 22px;
+	height: 22px;	
+	float: right;
+	margin-left: 10px;
+}
+div.PA
+{
+	background: url('../images/legend_diamond.png'); 
+	background-repeat: no-repeat;
+	width: 22px;
+	height: 22px;	
+	float: right;
+	margin-left: 10px;
+}
+div.SR
+{
+	background: url('../images/legend_triangle.png'); 
+	background-repeat: no-repeat;
+	width: 22px;
+	height: 19px;	
+	float: right;
+	margin-left: 10px;
+}
+div.Beta
+{
+	background: url('../images/legend_arrow_grey.png'); 
+	background-repeat: no-repeat;
+	width: 22px;
+	height: 22px;	
+	float: right;
+	margin-left: 10px;
+}
+
+div.legendLabel
+{
+	padding-left: 5px;
+	float: right;
+	line-height: 25px;
+}
+
+div.ontrack
+{
+	background-color: #5cb85c;
+	float: right;
+	width: 12px;
+	height: 12px;
+	/*border: solid black 1px;*/
+	margin-top: 4px;
+	margin-left: 10px;
+}
+div.warning
+{
+	background-color: #f0ad4e;
+	float: right;
+	width: 12px;
+	height: 12px;
+	margin-top: 4px;
+	margin-left: 10px;
+}
+div.atrisk
+{
+	background-color: #d9534f;
+	float: right;
+	width: 12px;
+	height: 12px;
+	/*border: solid black 1px;*/
+	margin-top: 4px;
+	margin-left: 10px;
+}
+div.legendOnTrack, div.legendWarning, div.legendRisk
+{	
+	float: right;
+	margin-left: 7px;
+}
+
+#productSelect
+{
+	float: left !important;
+	padding-top: 5px;
+}
+
+#risks, #warnings
+{
+	padding-left: 0px; 
+	padding-right: 0px;
+	margin-bottom: 100px;
+}
+.ganttRiskRelease {font-weight: bold; background-color: #ddd !important;}
+.ganttRiskHeading {width: 38%; font-weight: bold; background-color: #ededed;}
+.ganttRiskDate {width: 8%; font-weight: bold; background-color: #ededed;}
+.ganttRiskHeadingPhase {width: 10%; font-weight: bold; background-color: #ededed;}
+.ganttRiskHeadingPrime {width: 14%; font-weight: bold; background-color: #ededed;}
+td.release-name {color: #428bca; cursor: pointer;}
+
+#ganttTitle 
+{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	text-align: left;
+	font-size: 24px;
+	padding: 0px;
+}
+
+#summaryTitle 
+{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	text-align: left;
+	font-size: 24px;
+	padding: 0px;
+	margin-top: 10px;
+}
+td.reactive
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+td.summaryTotal
+{
+	width: 15px;
+}
+td.reactiveBuffer
+{
+	padding-left: 15px;
+}
+td.newIncidents
+{
+	width: 150px;
+}
+
+#problemFilter 
+{
+	padding: 0px;
+	margin-bottom: 20px;
+}
+
+#ganttslider
+{
+	margin-top: 55px;
+	padding-left: 0px;
+}
+
+div.sliderScaleClass
+{
+	color: white;
+	padding-bottom: 5px;
+	height: 25px;
+}
+
+#gantt-container {background-color:#fff; font-size: 12px;}
+.axis text {fill:#242a30}
+.domain {stroke: white; fill: white;}
+
+/* Line Styles */
+.line {stroke:#ccc;}
+.today {stroke:#5bc0de;}
+
+/* Bar Styles */
+.bar-label {color:black; font-size: 12px;}
+.long-bar-text {fill:black; text-anchor:middle; cursor: pointer;}
+.long-bar-text:hover {fill:#5D98E2; text-decoration: underline;}
+.short-bar-text {fill:black; cursor: pointer;}
+.short-bar-text:hover {fill:#5D98E2; text-decoration: underline;}
+.release-name {fill: #428bca; cursor: pointer;}
+.release-name:hover {fill:#2a6496; text-decoration: underline; cursor: pointer;}
+.barcolorondeck {fill: #FFA04D; stroke: black;stroke-width:1}
+.barcomplete {fill: #dafeda; stroke: black;stroke-width:1}
+/*.barcolorondeck {fill: #EFEFEF; stroke: black;stroke-width:1}*/
+/*.barclear {fill: white;}*/
+.barcolor {fill: #EFEFEF; stroke: black;stroke-width:1}
+.barclear {fill-opacity: 0; stroke-opacity: 0;}
+.barwhite {fill: white; stroke: white; stroke-width:2}
+
+/* Tool Tips */
+.ui-tooltip {font-size:12px; width: 200px; background-color: white; border: solid #FFA04D 1px; padding: 5px; position: absolute}
+.tip-title {font-weight:bold; float: left;}
+.tip-part {float: right;}
+.ui-tooltip.ui-widget-content {background-image:none; border-width:0px; opacity:0.9;}
+.ui-tooltip.ui-corner-all {border-radius:3px; border-width:1px;}
